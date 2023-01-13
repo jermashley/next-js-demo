@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.no-theme {
+  @apply bg-black text-white;
+}
+
+.theme-1 {
+  @apply bg-slate-800 text-slate-100;
+}
+
+.theme-2 {
+  @apply bg-purple-800 text-purple-100;
+}
+
+.theme-3 {
+  @apply bg-rose-800 text-rose-100;
+}
